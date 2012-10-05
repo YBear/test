@@ -17,7 +17,7 @@ public class Converter extends HttpServlet{
 		while(reader.readLine() != null) {
 			
 		}
-		response.getWriter().write("conversion was done");
+		response.getWriter().write("Conversion was done");
 	}
 	
 	public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -25,7 +25,7 @@ public class Converter extends HttpServlet{
 		while(reader.readLine() != null) {
 			
 		}
-		response.getWriter().write("returning resource");
+		response.getWriter().write("Returning resource");
 	}
 	
 }
